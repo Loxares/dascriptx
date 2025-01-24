@@ -10,7 +10,7 @@ def load_script():
     if file_path:
         with open(file_path, 'r') as file:
             script_content = file.read()
-            print(f"\nLoaded Script:\n{script_content}\n")
+            print("\nLoaded Script:\n{script_content}\n")
     reset_menu()
 
 def make_script():
